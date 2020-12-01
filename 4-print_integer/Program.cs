@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _0_new_project
+namespace _4_print_integer
 {
     class Program
     {

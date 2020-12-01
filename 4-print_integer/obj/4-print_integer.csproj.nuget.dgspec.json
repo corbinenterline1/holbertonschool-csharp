@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\corbi\\holbertonschool-csharp\\0x00-csharp-hello_world\\0-new_project\\0-new_project.csproj": {}
+    "C:\\Users\\corbi\\holbertonschool-csharp\\4-print_integer\\4-print_integer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\corbi\\holbertonschool-csharp\\0x00-csharp-hello_world\\0-new_project\\0-new_project.csproj": {
+    "C:\\Users\\corbi\\holbertonschool-csharp\\4-print_integer\\4-print_integer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\corbi\\holbertonschool-csharp\\0x00-csharp-hello_world\\0-new_project\\0-new_project.csproj",
-        "projectName": "0-new_project",
-        "projectPath": "C:\\Users\\corbi\\holbertonschool-csharp\\0x00-csharp-hello_world\\0-new_project\\0-new_project.csproj",
+        "projectUniqueName": "C:\\Users\\corbi\\holbertonschool-csharp\\4-print_integer\\4-print_integer.csproj",
+        "projectName": "4-print_integer",
+        "projectPath": "C:\\Users\\corbi\\holbertonschool-csharp\\4-print_integer\\4-print_integer.csproj",
         "packagesPath": "C:\\Users\\corbi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\corbi\\holbertonschool-csharp\\0x00-csharp-hello_world\\0-new_project\\obj\\",
+        "outputPath": "C:\\Users\\corbi\\holbertonschool-csharp\\4-print_integer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\corbi\\AppData\\Roaming\\NuGet\\NuGet.Config"
