@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-dotnet new console -n 1-new_project
-dotnet build --no-restore 1-new_project/1-new_project.csproj
+mkdir 1-new_project
+cd 1-new_project
+dotnet new console
+dotnet build
