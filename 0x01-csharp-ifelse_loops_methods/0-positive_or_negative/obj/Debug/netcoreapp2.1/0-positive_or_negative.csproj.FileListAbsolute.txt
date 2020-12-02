@@ -1,0 +1,11 @@
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\bin\Debug\netcoreapp2.1\0-positive_or_negative.deps.json
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\bin\Debug\netcoreapp2.1\0-positive_or_negative.runtimeconfig.json
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\bin\Debug\netcoreapp2.1\0-positive_or_negative.runtimeconfig.dev.json
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\bin\Debug\netcoreapp2.1\0-positive_or_negative.dll
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\bin\Debug\netcoreapp2.1\0-positive_or_negative.pdb
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.csprojAssemblyReference.cache
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.csproj.CoreCompileInputs.cache
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.AssemblyInfoInputs.cache
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.AssemblyInfo.cs
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.dll
+C:\Users\corbi\holbertonschool-csharp\0x01-positive_or_negative\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.pdb
