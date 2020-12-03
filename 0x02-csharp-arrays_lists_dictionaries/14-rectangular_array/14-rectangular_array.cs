@@ -9,7 +9,13 @@ class Program
         for (int row = 0; row  < 5; row++)
         {
             for (int col = 0; col < 5; col++)
+            {
+                if (row == 2 && col == 2)
+                    arr2d[row, col] = 1;
+                else
+                    arr2d[row, col] = 0;
                 Console.Write(string.Format("{0} ", arr2d[row, col]));
+            }
             Console.WriteLine();
         }
     }
