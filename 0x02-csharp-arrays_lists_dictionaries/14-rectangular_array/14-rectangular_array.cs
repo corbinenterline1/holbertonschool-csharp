@@ -14,7 +14,10 @@ class Program
                     arr2d[row, col] = 1;
                 else
                     arr2d[row, col] = 0;
-                Console.Write(string.Format("{0} ", arr2d[row, col]));
+                if (row == 4)
+                    Console.Write(string.Format("{0}", arr2d[row, col]));
+                else
+                    Console.Write(string.Format("{0} ", arr2d[row, col]));
             }
             Console.WriteLine();
         }
