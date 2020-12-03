@@ -5,7 +5,7 @@ class Program
 {
     public static string BestScore(Dictionary<string, int> myList)
     {
-        int max_key = 0;
+        int max_key = -1;
         string record_keeper = "None";
         foreach(KeyValuePair<string, int> combo in myList)
         {
