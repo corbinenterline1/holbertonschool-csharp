@@ -11,7 +11,7 @@ class LList
             return myLList.First;
         }
         var nodey = myLList.First;
-        for (; nodey.Next != null; nodey = nodey.Next)
+        for (; nodey != null; nodey = nodey.Next)
         {
             if (n <= nodey.Value)
             {
@@ -19,7 +19,6 @@ class LList
                 return nodey.Previous;
             }
         }
-        myLList.AddLast(n);
         return myLList.Last;
     }
 }
