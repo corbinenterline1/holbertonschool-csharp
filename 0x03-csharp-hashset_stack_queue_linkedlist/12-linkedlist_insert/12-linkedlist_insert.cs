@@ -13,12 +13,13 @@ class LList
         var nodey = myLList.First;
         for (; nodey != null; nodey = nodey.Next)
         {
-            if (n <= nodey.Value)
+            if (nodey.Value >= n)
             {
                 myLList.AddBefore(nodey, n);
                 return nodey.Previous;
             }
         }
+        myLList.AddLast(n);
         return myLList.Last;
     }
 }
