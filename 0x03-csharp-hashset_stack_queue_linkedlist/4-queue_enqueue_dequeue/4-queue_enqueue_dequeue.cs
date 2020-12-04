@@ -12,7 +12,7 @@ class MyQueue
             Console.WriteLine("First item: {0}", aQueue.Peek());
         aQueue.Enqueue(newItem);
         bool forgot_about_bool = aQueue.Contains(search);
-        Console.WriteLine("Queue contains {0}: {1}", search, forgot_about_bool);
+        Console.WriteLine("Queue contains \"{0}\": {1}", search, forgot_about_bool);
         while(aQueue.Contains(search))
         {
             aQueue.Dequeue();
