@@ -11,7 +11,7 @@ class MyStack
         else
             Console.WriteLine("Top item: {0}", aStack.Peek());
         bool forgot_about_bool = aStack.Contains(search);
-        Console.WriteLine("Stack contains {0}: {1}", search, forgot_about_bool);
+        Console.WriteLine("Stack contains \"{0}\": {1}", search, forgot_about_bool);
         while(aStack.Contains(search))
         {
             aStack.Pop();
