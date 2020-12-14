@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\corbi\\holbertonschool-csharp\\0x05-csharp_\\3-dog\\3-dog.csproj",
+      "projectUniqueName": "C:\\Users\\corbi\\holbertonschool-csharp\\0x05-csharp-structs_enums\\3-dog\\3-dog.csproj",
       "projectName": "3-dog",
-      "projectPath": "C:\\Users\\corbi\\holbertonschool-csharp\\0x05-csharp_\\3-dog\\3-dog.csproj",
+      "projectPath": "C:\\Users\\corbi\\holbertonschool-csharp\\0x05-csharp-structs_enums\\3-dog\\3-dog.csproj",
       "packagesPath": "C:\\Users\\corbi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\corbi\\holbertonschool-csharp\\0x05-csharp_\\3-dog\\obj\\",
+      "outputPath": "C:\\Users\\corbi\\holbertonschool-csharp\\0x05-csharp-structs_enums\\3-dog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
