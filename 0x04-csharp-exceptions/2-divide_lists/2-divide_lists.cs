@@ -14,12 +14,12 @@ class List
                 c = list1[i] / list2[i];
                 results_list.Add(c);
             }
-            catch (System.DivideByZeroException)
+            catch (DivideByZeroException)
             {
                 Console.WriteLine("Cannot divide by zero");
-                results_list.Add(0);
+                results_list.Add(c);
             }
-            catch (System.ArgumentOutOfRangeException)
+            catch (ArgumentOutOfRangeException)
             {
                 Console.WriteLine("Out of range");
                 return results_list;
