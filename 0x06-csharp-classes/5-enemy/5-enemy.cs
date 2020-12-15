@@ -60,11 +60,11 @@ namespace Enemies
         }
         
         /// <summary>
-        /// Prints the Zombie object's attributes to stdout.
+        /// Returns the Zombie object's attributes to stdout.
         /// </summary>
         public override string ToString()
         {
-            Console.WriteLine("Zombie name: {0} / Total Health: {1}", name, health);
+            return String.Format("Zombie name: {0} / Total Health: {1}", name, health);
         }
     }
 }
