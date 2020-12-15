@@ -14,6 +14,11 @@ namespace Enemies
         private int health;
 
         /// <summary>
+        /// Represents the name of the Zombie object.
+        /// </summary>
+        private string name = "(No name)";
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="Zombie"/> class.
         /// </summary>
         public Zombie()
@@ -41,7 +46,18 @@ namespace Enemies
         {
             return this.health;
         }
-
         
+        /// <summary>
+        /// Gets or sets a value indicating the name of the Zombie object.
+        /// </summary>
+        public string Name
+        {
+            get => this.name;
+            set
+            {
+                this.name = value;
+            }
+        }
+
     }
 }
