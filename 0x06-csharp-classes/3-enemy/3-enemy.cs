@@ -9,7 +9,7 @@ namespace Enemies
     {
         /// <summary>
         /// Represents the health of the Zombie object.
-        /// This public property is a member of the Zombie class.
+        /// This private field is a member of the Zombie class.
         /// </summary>
         private int health;
 
