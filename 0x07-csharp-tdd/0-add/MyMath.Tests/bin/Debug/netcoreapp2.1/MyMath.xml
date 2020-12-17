@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyMath</name>
+    </assembly>
+    <members>
+        <member name="T:MyMath.Operations">
+            <summary>
+            Class containing a few different algebraic operations.
+            </summary>
+        </member>
+        <member name="M:MyMath.Operations.Add(System.Int32,System.Int32)">
+            <summary>
+            Returns the sum of ints a and b.
+            </summary>
+        </member>
+    </members>
+</doc>
