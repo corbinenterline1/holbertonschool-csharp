@@ -13,17 +13,12 @@ namespace MyMath
         /// </summary>
         public static int Max(List<int> nums)
         {
-            try
-            {
-                nums.Sort();
-                return (nums[nums.Count - 1]);
-            }
-            catch (ArgumentOutOfRangeException)
+            if (nums == null)
             {
                 return 0;
             }
-
-
+            nums.Sort();
+            return (nums[nums.Count - 1]);
         }
     }
 }
