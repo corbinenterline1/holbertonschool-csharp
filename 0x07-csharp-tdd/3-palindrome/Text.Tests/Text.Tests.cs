@@ -27,4 +27,4 @@ namespace Text.Tests
             Assert.IsTrue(Text.Str.IsPalindrome(""));
         }
     }
-}
+}i
