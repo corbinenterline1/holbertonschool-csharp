@@ -12,7 +12,7 @@ namespace Text
         /// </summary>
         public static int UniqueChar(string s)
         {
-            if (s == null || s == "")
+            if (s == null || s.Length == 0)
             {
                 return -1;
             }
