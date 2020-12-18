@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyMath</name>
+    </assembly>
+    <members>
+        <member name="T:MyMath.Operations">
+            <summary>
+            Class containing methods pertaining to matrices.
+            </summary>
+        </member>
+        <member name="M:MyMath.Operations.Max(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Class containing an operation.
+            </summary>
+        </member>
+    </members>
+</doc>
