@@ -9,12 +9,20 @@ class VectorMath
     {
         if (vector1.Length == 2 && vector2.Length == 2)
         {
-            return (new double[] {vector1[0] + vector2[0], vector1[1] + vector2[1]});
+            double[] retvect = new double[] {0, 0};
+            retvect[0] = Math.Round((vector1[0] + vector2[0]), 2);
+            retvect[1] = Math.Round((vector1[1] + vector2[1]), 2);
+            return (retvect);
         }
         if (vector1.Length == 3 && vector2.Length == 3)
         {
-            return (new double[] {vector1[0] + vector2[0], vector1[1] + vector2[1], vector1[2] + vector2[2]});
+            double[] retvect = new double[] {0, 0, 0};
+            retvect[0] = Math.Round((vector1[0] + vector2[0]), 2);
+            retvect[1] = Math.Round((vector1[1] + vector2[1]), 2);
+            retvect[2] = Math.Round((vector1[2] + vector2[2]), 2);
+            return (retvect);
         }
-        return (new double[] {-1});
+        double[] retvect = new double[] {-1};
+        return (retvect);
     }
 }
