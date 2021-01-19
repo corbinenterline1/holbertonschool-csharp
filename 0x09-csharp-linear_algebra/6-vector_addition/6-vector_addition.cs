@@ -17,7 +17,7 @@ class VectorMath
             retvect[1] = Math.Round((vector1[1] + vector2[1]), 2);
             return (retvect);
         }
-        if (vector1.Length == 3 && vector2.Length == 3)
+        else if (vector1.Length == 3 && vector2.Length == 3)
         {
             double[] retvect = new double[] {0, 0, 0};
             retvect[0] = Math.Round((vector1[0] + vector2[0]), 2);
@@ -25,7 +25,10 @@ class VectorMath
             retvect[2] = Math.Round((vector1[2] + vector2[2]), 2);
             return (retvect);
         }
-        double[] retvect = new double[] {-1};
-        return (retvect);
+        else
+        {
+            double[] retvect = new double[] {-1};
+            return (retvect);
+        }
     }
 }
