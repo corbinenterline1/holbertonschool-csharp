@@ -12,7 +12,7 @@ class MatrixMath
     {
         if (matrix1.GetLength(0) == 2 && matrix1.GetLength(1) == 2 && matrix2.GetLength(0) == 2 && matrix2.GetLength(1) == 2)
         {
-            double[,] retmat = new double[2, 2]
+            double[,] retmat = new double[2, 2];
             for (int i = 0; i < 2; i++)
             {
                 for (int j = 0; j < 2; j++)
@@ -24,7 +24,7 @@ class MatrixMath
         }
         else if (matrix1.GetLength(0) == 3 && matrix1.GetLength(1) == 3 && matrix1.GetLength(2) == 3 && matrix2.GetLength(0) == 3 && matrix2.GetLength(1) == 3 && matrix2.GetLength(2) == 3)
         {
-            double[,] retmat = new double[3, 3]
+            double[,] retmat = new double[3, 3];
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
