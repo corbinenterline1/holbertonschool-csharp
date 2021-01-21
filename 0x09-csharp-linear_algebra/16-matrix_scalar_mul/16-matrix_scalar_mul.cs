@@ -22,7 +22,7 @@ class MatrixMath
             }
             return (retmat);
         }
-        else if (matrix.GetLength(0) == 3 && matrix.GetLength(1) == 3 && matrix.GetLength(2) == 3)
+        else if (matrix.GetLength(0) == 3 && matrix.GetLength(1) == 3)
         {
             double[,] retmat = new double[3, 3];
             for (int i = 0; i < 3; i++)
