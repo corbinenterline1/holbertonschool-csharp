@@ -25,5 +25,10 @@ class VectorMath
             retvect[2] = Math.Round((vector1[2] * scalar), 2);
             return (retvect);
         }
+        else
+        {
+            double[] retvect = new double[] {-1};
+            return (retvect);
+        }
     }
 }
