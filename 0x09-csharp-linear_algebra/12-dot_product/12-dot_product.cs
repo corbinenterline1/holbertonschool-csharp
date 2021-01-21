@@ -8,7 +8,7 @@ class VectorMath
     /// <summary>
     /// Add mushes* vectors together. *technical term
     /// </summary>
-    public static double[] DotProduct(double[] vector1, double[] vector2)
+    public static double DotProduct(double[] vector1, double[] vector2)
     {
         if (vector1.Length == 2 && vector2.Length == 2)
         {
