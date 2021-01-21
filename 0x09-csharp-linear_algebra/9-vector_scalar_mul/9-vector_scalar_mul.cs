@@ -23,12 +23,13 @@ class VectorMath
             for (int i = 0; i <= vector.Length - 1; i++)
             {
                 retvect[i] = Math.Round((vector1[i] * scalar), 2);
+            }
             return (retvect);
-        }
         }
         else
         {
             double[] retvect = new double[] {-1};
             return (retvect)
+        }
     }
 }
