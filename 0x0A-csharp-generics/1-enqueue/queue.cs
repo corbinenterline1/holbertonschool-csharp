@@ -14,7 +14,6 @@ class Queue<T>
         {
             value = val;
         }
-
     }
 
     /// <summary>Head node of queue.</summary>
@@ -38,5 +37,11 @@ class Queue<T>
     public string CheckType()
     {
         return (typeof(T).ToString());
+    }
+
+    /// <summary>Counts the length of the queue and returns it.</summary>
+    public int Count()
+    {
+        return (count);
     }
 }
