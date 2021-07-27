@@ -30,6 +30,10 @@ class Queue<T>
         if (head == null){
             head = n;
         }
+        if (tail != null)
+            tail.next = n;
+        else
+            head.next = n;
         tail = n;
         count++;
     }
@@ -42,7 +46,8 @@ class Queue<T>
             Console.WriteLine("Queue is empty");
             return (default(T));
         }
-        else{
+        else
+        {
             Node h = head;
             n = head.next;
             head = n;
