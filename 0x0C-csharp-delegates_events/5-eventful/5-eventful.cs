@@ -132,10 +132,13 @@ public delegate void CalculateHealth(float damage);
 ///<summary>Delegate to calculate Modifier.</summary>
 public delegate float CalculateModifier(float baseValue, Modifier modifier);
 
+///<summary>Class CurrentHPArgs.</summary>
 public class CurrentHPArgs : EventArgs
 {
+    ///<summary>currentHp.</summary>
     public float currentHp {get;}
 
+    ///<summary>CurrentHPArgs.</summary>
     public CurrentHPArgs(float newHp)
     {
         currentHp = newHp;
