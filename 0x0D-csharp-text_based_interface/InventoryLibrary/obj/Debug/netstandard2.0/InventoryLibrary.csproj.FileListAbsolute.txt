@@ -1,0 +1,4 @@
+C:\Users\corbi\holbertonschool-csharp\0x0D-csharp-text_based_interface\InventoryLibrary\obj\Debug\netstandard2.0\InventoryLibrary.csprojAssemblyReference.cache
+C:\Users\corbi\holbertonschool-csharp\0x0D-csharp-text_based_interface\InventoryLibrary\obj\Debug\netstandard2.0\InventoryLibrary.csproj.CoreCompileInputs.cache
+C:\Users\corbi\holbertonschool-csharp\0x0D-csharp-text_based_interface\InventoryLibrary\obj\Debug\netstandard2.0\InventoryLibrary.AssemblyInfoInputs.cache
+C:\Users\corbi\holbertonschool-csharp\0x0D-csharp-text_based_interface\InventoryLibrary\obj\Debug\netstandard2.0\InventoryLibrary.AssemblyInfo.cs

@@ -1,9 +1,14 @@
 using System;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Collections;
 
 ///<summary>Inventory class that inherits from BaseClass.</summary>
 public class Inventory : BaseClass
 {
+    ///<summary>JSON serialization object type.</summary>
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    public new string type { get; set; } = "Inventory";
     ///<summary>User ID associated with inventory.</summary>
     public string user_id { get; set; }
     ///<summary>Item ID.</summary>
@@ -20,5 +25,13 @@ public class Inventory : BaseClass
             this.quantity = quantity;
         else
             this.quantity = 1;
+    }
+    ///<summary>String override.</summary>
+    public override string ToString()
+    {
+        this.type = null;
+        var res = JsonSerializer.Serialize(this);
+        this.type = "Inventory";
+        return(res);
     }
 }

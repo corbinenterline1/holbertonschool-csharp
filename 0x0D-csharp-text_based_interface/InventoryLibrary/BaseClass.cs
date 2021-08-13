@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 ///<summary>Base Class.</summary>
 public class BaseClass
 {
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    public string type { get; set; } = "BaseClass";
     ///<summary>ID of Inventory object.</summary>
     public string id { get; set; }
     ///<sumamry>Time and date of object creation.</summary>
@@ -16,5 +20,14 @@ public class BaseClass
         this.id = System.Guid.NewGuid().ToString();
         this.date_created = DateTime.Now;
         this.date_updated = DateTime.Now;
+    }
+
+    ///<summary>String override.</summary>
+    public override string ToString()
+    {
+        this.type = null;
+        var res = JsonSerializer.Serialize(this);
+        this.type = "BaseClass";
+        return(res);
     }
 }
